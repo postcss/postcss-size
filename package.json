@@ -1,0 +1,26 @@
+{
+    "name": "postcss-size",
+    "version": "0.1.0",
+    "description": "PostCSS plugin for size shortcut",
+    "keywords": ["postcss", "sass", "css", "size", "width", "height"],
+    "author": "Andrey Sitnik <andrey@sitnik.ru>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url":  "https://github.com/postcss/postcss-size.git"
+    },
+    "dependencies": {
+        "postcss": "^4.0.3"
+    },
+    "devDependencies": {
+        "jshint-stylish": "1.0.0",
+        "gulp-jshint":    "1.9.2",
+        "gulp-mocha":     "2.0.0",
+        "mocha":          "2.1.0",
+        "chai":           "1.10.0",
+        "gulp":           "3.8.10"
+    },
+    "scripts": {
+        "test": "gulp"
+    }
+}
