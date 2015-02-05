@@ -5,3 +5,31 @@
 [PostCSS] plugin for `size` shorcut.
 
 [PostCSS]: https://github.com/postcss/postcss
+
+```css
+.two {
+    size: 20px 10px;
+}
+.one {
+    size: 10px;
+}
+```
+
+```css
+.two {
+    width: 20px;
+    height: 10px;
+}
+.one {
+    width: 10px;
+    height: 10px;
+}
+```
+
+## Usage
+
+```js
+postcss([ require('postcss-size') ])
+```
+
+See [PostCSS] docs for examples for your environment.
