@@ -22,4 +22,14 @@ describe('postcss-size', function () {
              'a{ width: calc(4 * 2px); height: 2px; }');
     });
 
+    it('prefix value', function () {
+        test('a{ size: -webkit-fit-content  auto; }',
+             'a{ width: -webkit-fit-content; height: auto; }');
+    });
+
+    it('auto value', function () {
+        test('a{ size: .98%  auto; }',
+             'a{ width: .98%; height: auto; }');
+    });
+
 });
