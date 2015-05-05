@@ -1,10 +1,14 @@
-# PostCSS Size [![Build Status](https://travis-ci.org/postcss/postcss-size.svg)](https://travis-ci.org/postcss/postcss-size)
+# PostCSS Size [![Build Status][ci-img]][ci]
 
-<img align="right" width="135" height="95" src="http://postcss.github.io/postcss/logo-leftp.png" title="Philosopher’s stone, logo of PostCSS">
+<img align="right" width="135" height="95"
+     title="Philosopher’s stone, logo of PostCSS"
+     src="http://postcss.github.io/postcss/logo-leftp.png">
 
 [PostCSS] plugin for `size` shortcut to set `width` and `height` properties.
 
 [PostCSS]: https://github.com/postcss/postcss
+[ci-img]:  https://travis-ci.org/postcss/postcss-size.svg
+[ci]:      https://travis-ci.org/postcss/postcss-size
 
 ```css
 .two {
