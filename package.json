@@ -2,7 +2,7 @@
     "name": "postcss-size",
     "version": "0.1.0",
     "description": "PostCSS plugin for size shortcut",
-    "keywords": ["postcss", "css", "size", "width", "height"],
+    "keywords": ["postcss", "css", "postcss-plugin", "size", "width", "height"],
     "author": "Andrey Sitnik <andrey@sitnik.ru>",
     "license": "MIT",
     "repository": {
