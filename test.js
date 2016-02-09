@@ -32,3 +32,8 @@ test('prefix value', t => {
 test('supports auto value', t => {
     return run(t, 'a{ size: .98%  auto; }', 'a{ width: .98%; height: auto; }');
 });
+
+test('supports !important', t => {
+    return run(t, 'a{ size: 1px !important; }',
+                  'a{ width: 1px !important; height: 1px !important; }');
+});
