@@ -37,3 +37,8 @@ test('supports !important', t => {
     return run(t, 'a{ size: 1px !important; }',
                   'a{ width: 1px !important; height: 1px !important; }');
 });
+
+test('not conflicts with @page size descriptor', t => {
+    return run(t, '@page{ size: 4cm 6cm landscape; }',
+                  '@page{ size: 4cm 6cm landscape; }');
+});
