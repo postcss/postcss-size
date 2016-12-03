@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/postcss/postcss-size",
   "dependencies": {
-    "postcss": "^5.2.6"
+    "postcss": "^5.2.6",
+    "rimraf": "^2.5.4"
   },
   "devDependencies": {
     "eslint": "^3.11.1",
@@ -29,7 +30,8 @@
   },
   "scripts": {
     "lint-staged": "lint-staged",
-    "test": "jest --coverage && eslint *.js"
+    "clean": "rimraf coverage/",
+    "test": "npm run clean && jest --coverage && eslint *.js"
   },
   "jest": {
     "coverageThreshold": {
