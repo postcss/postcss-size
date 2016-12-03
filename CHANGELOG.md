@@ -1,3 +1,6 @@
+## 1.1
+* Ignore `size` inside `@page` at-rule (by Margarita Klubochkina).
+
 ## 1.0
 * Use PostCSS 5.0 API.
 
