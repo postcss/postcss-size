@@ -1,9 +1,12 @@
 .gitignore
 .npmignore
+.editorconfig
 
 node_modules/
 npm-debug.log
+yarn-error.log
+yarn.lock
 
 coverage/
-test.js
+*.test.js
 .travis.yml
