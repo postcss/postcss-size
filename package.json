@@ -18,17 +18,27 @@
   },
   "homepage": "https://github.com/postcss/postcss-size",
   "dependencies": {
-    "postcss": "^5.0.14"
+    "postcss": "^5.2.6"
   },
   "devDependencies": {
-    "ava": "^0.11.0",
-    "eslint": "^1.10.3",
-    "eslint-config-postcss": "^1.0.0"
+    "jest": "^17.0.2",
+    "eslint": "^3.11.1",
+    "eslint-config-postcss": "^2.0.2"
   },
   "scripts": {
-    "test": "ava && eslint *.js"
+    "test": "jest --coverage && eslint *.js"
+  },
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "statements": 100
+      }
+    }
   },
   "eslintConfig": {
-    "extends": "eslint-config-postcss/es5"
+    "extends": "eslint-config-postcss/es5",
+    "env": {
+      "jest": true
+    }
   }
 }
