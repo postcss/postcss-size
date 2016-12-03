@@ -1,3 +1,6 @@
+## 1.1.1
+* Fix npm package dependencies.
+
 ## 1.1
 * Ignore `size` inside `@page` at-rule (by Margarita Klubochkina).
 
