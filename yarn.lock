@@ -39,8 +39,8 @@ ajv-keywords@^1.0.0:
   resolved "https://registry.yarnpkg.com/ajv-keywords/-/ajv-keywords-1.2.0.tgz#676c4f087bfe1e8b12dca6fda2f3c74f417b099c"
 
 ajv@^4.7.0:
-  version "4.9.0"
-  resolved "https://registry.yarnpkg.com/ajv/-/ajv-4.9.0.tgz#5a358085747b134eb567d6d15e015f1d7802f45c"
+  version "4.9.1"
+  resolved "https://registry.yarnpkg.com/ajv/-/ajv-4.9.1.tgz#08e1b0a5fddc8b844d28ca7b03510e78812ee3a0"
   dependencies:
     co "^4.6.0"
     json-stable-stringify "^1.0.1"
