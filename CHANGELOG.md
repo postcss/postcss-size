@@ -1,6 +1,9 @@
 # Change Log
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 2.0
+* Use PostCSS 6.0.
+
 ## 1.1.1
 * Fix npm package dependencies.
 
