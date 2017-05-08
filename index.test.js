@@ -20,12 +20,12 @@ it('sets width and height by one value', function () {
 
 it('splits values by brackets', function () {
     return run('a{ size: calc(4 * 2px)  2px; }',
-                  'a{ width: calc(4 * 2px); height: 2px; }');
+               'a{ width: calc(4 * 2px); height: 2px; }');
 });
 
 it('prefix value', function () {
     return run('a{ size: -webkit-fit-content  auto; }',
-                  'a{ width: -webkit-fit-content; height: auto; }');
+               'a{ width: -webkit-fit-content; height: auto; }');
 });
 
 it('supports auto value', function () {
@@ -34,10 +34,10 @@ it('supports auto value', function () {
 
 it('supports !important', function () {
     return run('a{ size: 1px !important; }',
-                  'a{ width: 1px !important; height: 1px !important; }');
+               'a{ width: 1px !important; height: 1px !important; }');
 });
 
 it('not conflicts with @page size descriptor', function () {
     return run('@page{ size: 4cm 6cm landscape; }',
-                  '@page{ size: 4cm 6cm landscape; }');
+               '@page{ size: 4cm 6cm landscape; }');
 });
