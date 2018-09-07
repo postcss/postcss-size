@@ -13,10 +13,6 @@
   "author": "Andrey Sitnik <andrey@sitnik.ru>",
   "license": "MIT",
   "repository": "postcss/postcss-size",
-  "bugs": {
-    "url": "https://github.com/postcss/postcss-size/issues"
-  },
-  "homepage": "https://github.com/postcss/postcss-size",
   "dependencies": {
     "postcss": "^7.0.2"
   },
