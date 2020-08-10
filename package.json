@@ -16,9 +16,6 @@
   "scripts": {
     "test": "jest-ci --coverage && eslint-ci *.js"
   },
-  "dependencies": {
-    "postcss": "^7.0.32"
-  },
   "devDependencies": {
     "@logux/eslint-config": "^40.0.1",
     "clean-publish": "^1.1.8",
@@ -37,7 +34,8 @@
     "husky": "^4.2.5",
     "jest": "^26.2.2",
     "jest-ci": "^0.1.1",
-    "lint-staged": "^10.2.11"
+    "lint-staged": "^10.2.11",
+    "postcss": "postcss/postcss#ose"
   },
   "husky": {
     "hooks": {
