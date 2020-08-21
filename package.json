@@ -16,6 +16,9 @@
   "scripts": {
     "test": "jest-ci --coverage && eslint-ci *.js"
   },
+  "peerDependencies": {
+    "postcss": "postcss/postcss#ose"
+  },
   "devDependencies": {
     "@logux/eslint-config": "^40.0.3",
     "clean-publish": "^1.1.8",
@@ -36,7 +39,7 @@
     "jest-ci": "^0.1.1",
     "lint-staged": "^10.2.11",
     "postcss": "postcss/postcss#ose",
-    "postcss-sharec-config": "^0.1.0"
+    "postcss-sharec-config": "^0.1.1"
   },
   "husky": {
     "hooks": {
@@ -59,6 +62,6 @@
   },
   "sharec": {
     "config": "postcss-sharec-config",
-    "version": "0.1.0"
+    "version": "0.1.1"
   }
 }
