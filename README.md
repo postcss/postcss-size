@@ -10,21 +10,21 @@
 
 ```css
 .two {
-    size: 20px 10px;
+  size: 20px 10px;
 }
 .one {
-    size: 10px;
+  size: 10px;
 }
 ```
 
 ```css
 .two {
-    width: 20px;
-    height: 10px;
+  width: 20px;
+  height: 10px;
 }
 .one {
-    width: 10px;
-    height: 10px;
+  width: 10px;
+  height: 10px;
 }
 ```
 
