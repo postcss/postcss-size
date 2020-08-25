@@ -14,7 +14,7 @@
   "license": "MIT",
   "repository": "postcss/postcss-size",
   "scripts": {
-    "test": "jest-ci --coverage && eslint-ci *.js"
+    "test": "jest-ci --coverage && eslint-ci ."
   },
   "peerDependencies": {
     "postcss": "postcss/postcss#ose"
@@ -35,11 +35,11 @@
     "eslint-plugin-standard": "^4.0.1",
     "eslint-plugin-unicorn": "^21.0.0",
     "husky": "^4.2.5",
-    "jest": "^26.4.1",
+    "jest": "^26.4.2",
     "jest-ci": "^0.1.1",
     "lint-staged": "^10.2.11",
     "postcss": "postcss/postcss#ose",
-    "postcss-sharec-config": "^0.1.1"
+    "postcss-sharec-config": "^0.1.2"
   },
   "husky": {
     "hooks": {
@@ -62,6 +62,6 @@
   },
   "sharec": {
     "config": "postcss-sharec-config",
-    "version": "0.1.1"
+    "version": "0.1.2"
   }
 }
