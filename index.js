@@ -18,9 +18,13 @@ module.exports = () => {
         }
       },
 
-      'min-size': (decl, { list }) => processSize('min-', decl, list),
+      'min-size': (decl, { list }) => {
+        processSize('min-', decl, list)
+      },
 
-      'max-size': (decl, { list }) => processSize('max-', decl, list)
+      'max-size': (decl, { list }) => {
+        processSize('max-', decl, list)
+      }
     }
   }
 }
