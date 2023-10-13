@@ -17,12 +17,10 @@ It also handles `min-size` to set `min-width` and `min-height`, and `max-size` t
 .one {
   size: 10px;
 }
-
 .minmax {
   min-size: 10px;
   max-size: 200px auto;
 }
-
 ```
 
 ```css
