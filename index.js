@@ -1,14 +1,14 @@
+function processSize (propPrefix, decl, list) {
+  let sizes = list.space(decl.value)
+  if (sizes.length === 1) sizes[1] = sizes[0]
+
+  decl.cloneBefore({ prop: propPrefix + 'width', value: sizes[0] })
+  decl.cloneBefore({ prop: propPrefix + 'height', value: sizes[1] })
+
+  decl.remove()
+}
+
 module.exports = () => {
-  function processSize (propPrefix, decl, list) {
-    let sizes = list.space(decl.value)
-    if (sizes.length === 1) sizes[1] = sizes[0]
-
-    decl.cloneBefore({ prop: propPrefix + 'width', value: sizes[0] })
-    decl.cloneBefore({ prop: propPrefix + 'height', value: sizes[1] })
-
-    decl.remove()
-  }
-
   return {
     postcssPlugin: 'postcss-size',
     Declaration: {
