@@ -1,5 +1,5 @@
 module.exports = () => {
-  function processSize (propPrefix = '', decl, list) {
+  function processSize (propPrefix, decl, list) {
     let sizes = list.space(decl.value)
     if (sizes.length === 1) sizes[1] = sizes[0]
 
