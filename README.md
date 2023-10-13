@@ -6,6 +6,8 @@
 
 [PostCSS] plugin for `size` shortcut to set `width` and `height` properties.
 
+It also handles `min-size` to set `min-width` and `min-height`, and `max-size` to set `max-width` and `max-height`.
+
 [PostCSS]: https://github.com/postcss/postcss
 
 ```css
@@ -15,6 +17,12 @@
 .one {
   size: 10px;
 }
+
+.minmax {
+  min-size: 10px;
+  max-size: 200px auto;
+}
+
 ```
 
 ```css
@@ -25,6 +33,12 @@
 .one {
   width: 10px;
   height: 10px;
+}
+.minmax {
+  min-width: 10px;
+  min-height: 10px;
+  max-width: 200px;
+  max-height: auto;
 }
 ```
 
