@@ -14,13 +14,12 @@
   "license": "MIT",
   "repository": "postcss/postcss-size",
   "scripts": {
-    "unit": "uvu . '\\.test\\.js$'",
-    "test:coverage": "c8 pnpm unit",
+    "test:coverage": "c8 pnpm bnt",
     "test:lint": "eslint .",
     "test": "pnpm run /^test:/"
   },
   "engines": {
-    "node": ">=10.0"
+    "node": ">=18.0"
   },
   "funding": [
     {
@@ -37,6 +36,7 @@
   },
   "devDependencies": {
     "@logux/eslint-config": "^52.0.1",
+    "better-node-test": "^0.2.0",
     "c8": "^8.0.1",
     "clean-publish": "^4.2.0",
     "eslint": "^8.51.0",
@@ -47,8 +47,7 @@
     "eslint-plugin-perfectionist": "^2.2.0",
     "eslint-plugin-prefer-let": "^3.0.1",
     "eslint-plugin-promise": "^6.1.1",
-    "postcss": "^8.4.31",
-    "uvu": "^0.5.6"
+    "postcss": "^8.4.31"
   },
   "prettier": {
     "arrowParens": "avoid",
