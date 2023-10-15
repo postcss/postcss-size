@@ -1,6 +1,10 @@
 # Change Log
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 5.0
+* Added `min-size` and `max-size` support (by @meduzen).
+* Removed Node.js 10, 12, 14, 16 support.
+
 ## 4.0.1
 * Added funding links.
 

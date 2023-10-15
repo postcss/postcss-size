@@ -1,6 +1,6 @@
 {
   "name": "postcss-size",
-  "version": "4.0.1",
+  "version": "5.0.0",
   "description": "PostCSS plugin for size shortcut",
   "keywords": [
     "postcss",
