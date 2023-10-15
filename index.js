@@ -10,22 +10,22 @@ function processSize (propPrefix, decl, list) {
 
 module.exports = () => {
   return {
-    postcssPlugin: 'postcss-size',
     Declaration: {
-      'size': (decl, { list }) => {
-        if (decl.parent.name !== 'page') {
-          processSize('', decl, list)
-        }
+      'max-size': (decl, { list }) => {
+        processSize('max-', decl, list)
       },
 
       'min-size': (decl, { list }) => {
         processSize('min-', decl, list)
       },
 
-      'max-size': (decl, { list }) => {
-        processSize('max-', decl, list)
+      'size': (decl, { list }) => {
+        if (decl.parent.name !== 'page') {
+          processSize('', decl, list)
+        }
       }
-    }
+    },
+    postcssPlugin: 'postcss-size'
   }
 }
 module.exports.postcss = true
